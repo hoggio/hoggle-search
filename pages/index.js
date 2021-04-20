@@ -39,7 +39,7 @@ export default function Home() {
           <p className="link">Images</p>
           <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
 
-          <Avatar url={'https://avatars.githubusercontent.com/jeffhogg86'} />
+          <Avatar />
         </div>
       </header>
       <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
