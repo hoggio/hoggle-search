@@ -26,7 +26,20 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <Head>
-        <title>Hoggle</title>
+        <title>Hoggle Search</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content={'Hoggle Search'} />
+        <meta
+          property="og:description"
+          content="A simple search engine using Google's custom search API"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hoggle-search.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://hoggle-search.vercel.app/hoggle.png"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className="flex w-full p-5 justify-between text-sm text-gray-700">
